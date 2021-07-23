@@ -1,0 +1,22 @@
+{
+  "name": "@huanchh/npm-with-package-build",
+  "version": "1.0.0",
+  "description": "sample npm project with  package build demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanchh/npm-with-package-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huanchh/npm-with-package-build/issues"
+  },
+  "homepage": "https://github.com/huanchh/npm-with-package-build#readme",
+  "publishConfig": {
+   "@huanchh:registry": "https://npm.pkg.github.com"
+ }	
+}
